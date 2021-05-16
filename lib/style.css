@@ -1,0 +1,35 @@
+body {
+  /*background-image: ;*/
+  background-color: rgb(247, 200, 112);
+}
+
+
+.dogli {
+/*list-style-image: url(../img/dogli1.png); */
+width: 10px;
+height: auto;
+margin: 0;
+margin-left: 100px;
+transition: all 0.5s ease;
+}
+
+.jumpbutton{
+  
+  transition: all 0.5s ease;
+}
+.jumpbutton:hover{
+  transform: rotate(3deg) scale(1.07);
+}
+
+.dogli:hover{
+  transform: rotate(3deg) scale(1.07);
+} 
+
+.catli:hover{
+  transform: rotate(3deg) scale(1.07);
+}
+
+.catli {
+list-style-image: url(img/catli.png); 
+
+}
